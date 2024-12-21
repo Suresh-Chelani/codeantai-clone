@@ -1,0 +1,15 @@
+
+.auth-container {
+    display: flex;
+    gap: 0rem;
+    align-items: center;
+    width: 100vw;
+    background-color: #f9fafb;
+  }
+
+
+@media screen and (max-width: 768px) {
+    .auth-container{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,114 @@
+.Sign-R-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 50vw;
+  }
+  
+  .auth-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+  }
+  
+  .auth-card-header {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .auth-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .auth-logo-text {
+    font-weight: 300;
+  }
+  
+  .auth-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .auth-toggle {
+    display: flex;
+    background-color: #f3f4f6;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .auth-toggle-btn {
+    flex: 1;
+    padding: 0.75rem;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .auth-toggle-btn.active {
+    background-color: #1570ef;
+    color: white;
+  }
+  
+  .auth-card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .auth-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    justify-content: center;
+  }
+  
+  .auth-option-icon {
+    width: 20px;
+  }
+  
+  .auth-footer {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .Sign-R-container{
+      width: 100vw;
+    }
+
+    .auth-card{
+      margin-top: 13vh;
+    }
+  }
