@@ -1,7 +1,4 @@
 ## codeantai-clone - Frontend Assignment
-
-This project is a **frontend assignment** developed for the **CodeAntai hiring process**. The goal was to replicate the user interface and functionality based on the design provided in Figma. This repository contains the completed frontend for the CodeAntai clone, and it's designed to be responsive and follow modern frontend development practices.
-
 ## Project Overview
 
 This project was created as part of a **hiring assignment** to showcase frontend development skills. The design and UI components were implemented based on the given Figma design, with features such as search functionality, repository listing, and button interactions. The project is built using **React** and **CSS** for styling.
